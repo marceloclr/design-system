@@ -164,4 +164,5 @@ Mudanças no padrão são feitas **aqui** primeiro e depois propagadas, registra
 
 ## Histórico
 
+- 2026-10-07: `.segmentos` e `.seg` incluídos em `tokens.css` (faltavam; usados pelo dani).
 - 2026-10-07: consolidação inicial a partir de `saneamento`, `modulus`/`plantas` e `apresenta`; contraste conferido; `tokens.css` e `dicas.js` extraídos.
