@@ -151,6 +151,8 @@ Padrão obrigatório para valores calculados e controles não óbvios. Use [`com
 | `apresenta` | Slides | Quatro temas (aurora, marfim, grafite, nanquim) com variáveis `--s-*`; marfim e nanquim usam latão e musgo; corpo ≥ 28 px em 1920 × 1080 |
 | `dani` (Construction 4D Studio) | Visualização 3D | Usa estes tokens na interface; a cena 3D tem cores próprias de material, e os estados construtivos usam `--latao` (em execução), `--musgo` (concluído) e `--tinta-3` translúcido (fantasma) |
 
+| `seplag-emendas` (e, depois, `seplag-entregas-mapp`) | Marca do Governo do Ceará | Brasão e assinatura do Governo do Estado em vetor (`assets/marca/`, extraídos da PLOA 2027): azul institucional `#004C6F` no tema claro, branco no escuro. O azul do Governo (`#012E70` → `#03547D`) entra só na marca e na faixa da capa do PDF; gráficos, cartões e acentos seguem os tokens daqui |
+
 Projetos fora do padrão hoje: `seplag`, `seplag2` (Plus Jakarta Sans e JetBrains Mono), `sipog` (Kanit), `sys-comm`, `minutar` e `viagens`. Não migre sem pedido; em mudança grande de interface, proponha a migração.
 
 ## 10. Como usar num projeto
@@ -164,5 +166,6 @@ Mudanças no padrão são feitas **aqui** primeiro e depois propagadas, registra
 
 ## Histórico
 
+- 2026-10-29: variante "Marca do Governo do Ceará" registrada para os relatórios da Seplag (seção 9).
 - 2026-10-07: `.segmentos` e `.seg` incluídos em `tokens.css` (faltavam; usados pelo dani).
 - 2026-10-07: consolidação inicial a partir de `saneamento`, `modulus`/`plantas` e `apresenta`; contraste conferido; `tokens.css` e `dicas.js` extraídos.
