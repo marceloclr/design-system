@@ -151,7 +151,7 @@ Padrão obrigatório para valores calculados e controles não óbvios. Use [`com
 | `apresenta` | Slides | Quatro temas (aurora, marfim, grafite, nanquim) com variáveis `--s-*`; marfim e nanquim usam latão e musgo; corpo ≥ 28 px em 1920 × 1080 |
 | `dani` (Construction 4D Studio) | Visualização 3D | Usa estes tokens na interface; a cena 3D tem cores próprias de material, e os estados construtivos usam `--latao` (em execução), `--musgo` (concluído) e `--tinta-3` translúcido (fantasma) |
 
-| `seplag-emendas` (e, depois, `seplag-entregas-mapp`) | Marca do Governo do Ceará | Brasão e assinatura do Governo do Estado em vetor (`assets/marca/`, extraídos da PLOA 2027): azul institucional `#004C6F` no tema claro, branco no escuro. O azul do Governo (`#012E70` → `#03547D`) entra só na marca e na faixa da capa do PDF; gráficos, cartões e acentos seguem os tokens daqui |
+| `seplag-emendas` (e, depois, `seplag-entregas-mapp`) | Marca do Governo do Ceará | Assinatura horizontal oficial em vetor (`assets/marca/`, do Manual de Identidade Visual do Governo do Ceará 2023-2026): colorida no tema claro, negativa vazada no escuro, mínimo de 30 mm. A cor oficial do contorno e dos nomes (`#465564`, Pantone 7545 C, vizinha do `--grafite`) entra só na faixa da capa do PDF; gráficos, cartões e acentos seguem os tokens daqui. As fontes da marca (Kanit e Maitree) não substituem o IBM Plex |
 
 Projetos fora do padrão hoje: `seplag`, `seplag2` (Plus Jakarta Sans e JetBrains Mono), `sipog` (Kanit), `sys-comm`, `minutar` e `viagens`. Não migre sem pedido; em mudança grande de interface, proponha a migração.
 
