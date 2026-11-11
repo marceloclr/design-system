@@ -152,7 +152,7 @@ Padrão obrigatório para valores calculados e controles não óbvios. Use [`com
 | `dani` (Construction 4D Studio) | Visualização 3D | Usa estes tokens na interface; a cena 3D tem cores próprias de material, e os estados construtivos usam `--latao` (em execução), `--musgo` (concluído) e `--tinta-3` translúcido (fantasma) |
 
 | `seplag-emendas` (e, depois, `seplag-entregas-mapp`) | Marca do Governo do Ceará | Assinatura horizontal oficial em vetor (`assets/marca/`, do Manual de Identidade Visual do Governo do Ceará 2023-2026): colorida no tema claro, negativa vazada no escuro, mínimo de 30 mm. A cor oficial do contorno e dos nomes (`#465564`, Pantone 7545 C, vizinha do `--grafite`) entra só na faixa da capa do PDF; gráficos, cartões e acentos seguem os tokens daqui. As fontes da marca (Kanit e Maitree) não substituem o IBM Plex |
-| `diagnostico` | Arquivo único / fontes do sistema | Mesmos tokens de cor, forma e componentes, embutidos no próprio script; sem carregar fontes: pilha `"IBM Plex Sans", system-ui, Cantarell, "Noto Sans", "DejaVu Sans"` (títulos `"IBM Plex Serif", "Noto Serif", "DejaVu Serif"`; números `"IBM Plex Mono", ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono"`), usando a Plex só se já estiver instalada. Página autocontida e offline (~60 KB) |
+| `diagnostico` | Arquivo único / paleta do hub | Paleta índigo do hub `marceloclr.gitlab.io` (a de `app/src/ds/seplag.css`: mesmos nomes de tokens, outros valores), barra superior escura com o filete em arco-íris, botões e seleção em degradê `--c1`→`--c2`, cantos de 18/10 px; abas numa coluna lateral à esquerda (vira faixa rolável no celular), cartões de gravidade dentro da barra superior. Tudo embutido no próprio script, sem carregar fontes: pilha `"Plus Jakarta Sans", system-ui, Cantarell, "Noto Sans", "DejaVu Sans"` (números `"JetBrains Mono", ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono"`), usando essas fontes só se já estiverem instaladas. Página autocontida e offline |
 
 Projetos fora do padrão hoje: `seplag`, `seplag2` (Plus Jakarta Sans e JetBrains Mono), `sipog` (Kanit), `sys-comm`, `minutar` e `viagens`. Não migre sem pedido; em mudança grande de interface, proponha a migração.
 
@@ -167,6 +167,7 @@ Mudanças no padrão são feitas **aqui** primeiro e depois propagadas, registra
 
 ## Histórico
 
+- 2026-11-11: `diagnostico` passa da variante "fontes do sistema" com tokens Papel e Tinta para a paleta do hub (índigo), com abas laterais (seção 9).
 - 2026-11-11: variante "Arquivo único / fontes do sistema" registrada para o `diagnostico` (seção 9).
 - 2026-10-29: variante "Marca do Governo do Ceará" registrada para os relatórios da Seplag (seção 9).
 - 2026-10-07: `.segmentos` e `.seg` incluídos em `tokens.css` (faltavam; usados pelo dani).
