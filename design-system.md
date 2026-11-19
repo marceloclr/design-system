@@ -153,7 +153,7 @@ Padrão obrigatório para valores calculados e controles não óbvios. Use [`com
 
 | `seplag-emendas` (e, depois, `seplag-entregas-mapp`) | Marca do Governo do Ceará | Assinatura horizontal oficial em vetor (`assets/marca/`, do Manual de Identidade Visual do Governo do Ceará 2023-2026): colorida no tema claro, negativa vazada no escuro, mínimo de 30 mm. A cor oficial do contorno e dos nomes (`#465564`, Pantone 7545 C, vizinha do `--grafite`) entra só na faixa da capa do PDF; gráficos, cartões e acentos seguem os tokens daqui. As fontes da marca (Kanit e Maitree) não substituem o IBM Plex |
 | `diagnostico` | Arquivo único / paleta do hub | Paleta índigo do hub `marceloclr.gitlab.io` (a de `app/src/ds/seplag.css`: mesmos nomes de tokens, outros valores), barra superior escura com o filete em arco-íris, botões e seleção em degradê `--c1`→`--c2`, cantos de 18/10 px; abas numa coluna lateral à esquerda (vira faixa rolável no celular), cartões de gravidade dentro da barra superior. Tudo embutido no próprio script, sem carregar fontes: pilha `"Plus Jakarta Sans", system-ui, Cantarell, "Noto Sans", "DejaVu Sans"` (números `"JetBrains Mono", ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono"`), usando essas fontes só se já estiverem instaladas. Página autocontida e offline |
-| `estudobiblico` (caderno Bíblia e Tradição) | Identidade do livro impresso | A página de downloads usa os elementos do próprio PDF: títulos em EB Garamond e texto em Source Serif 4 (woff2 locais), azul `#17324d`, marrom `#6e3f14`, creme `#faf7f1`/`#f4eedf`, filete das notas e faixa com as cores das 7 etapas; tema escuro no azul da capa (`#13283f`). Mantém os temas claro e escuro com botão, o foco visível e a largura de 360 px |
+| `estudobiblico` (caderno Bíblia e Tradição) | Identidade do livro impresso | A página de downloads usa os elementos do próprio PDF: títulos em EB Garamond, texto em Source Serif 4 e interface (abas, botões, selos, rótulos) em Source Sans 3, todos em woff2 locais; barra superior fixa no azul da capa com o selo da versão, o contato e o botão de tema; abas A5 × A4 e versões anteriores recolhidas em `<details>`, azul `#17324d`, marrom `#6e3f14`, creme `#faf7f1`/`#f4eedf`, filete das notas e faixa com as cores das 7 etapas; tema escuro no azul da capa (`#13283f`). Mantém os temas claro e escuro com botão, o foco visível e a largura de 360 px |
 
 Projetos fora do padrão hoje: `seplag`, `seplag2` (Plus Jakarta Sans e JetBrains Mono), `sipog` (Kanit), `sys-comm`, `minutar` e `viagens`. Não migre sem pedido; em mudança grande de interface, proponha a migração.
 
@@ -168,6 +168,7 @@ Mudanças no padrão são feitas **aqui** primeiro e depois propagadas, registra
 
 ## Histórico
 
+- 2026-11-19: variante `estudobiblico` passa a usar Source Sans 3 na interface, barra fixa e abas (seção 9).
 - 2026-11-19: variante "Identidade do livro impresso" registrada para o `estudobiblico` (seção 9).
 - 2026-11-11: `diagnostico` passa da variante "fontes do sistema" com tokens Papel e Tinta para a paleta do hub (índigo), com abas laterais (seção 9).
 - 2026-11-11: variante "Arquivo único / fontes do sistema" registrada para o `diagnostico` (seção 9).
